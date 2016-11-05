@@ -59,7 +59,7 @@ export default class ContactCard extends Component {
         </div>
         <div>{website ?
           <div className = "companyName">
-            <span className = "label"> Company: </span>
+            <span className = "label">Company: </span>
             <a href={website}>{companyName}</a>
           </div> :
             <div className="companyName">

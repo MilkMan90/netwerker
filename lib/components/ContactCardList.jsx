@@ -71,7 +71,7 @@ export default class ContactCardList extends Component {
     const sortedList = contactList.sort((a, b) => a.props.lastName > b.props.lastName);
     return (
       <div className="contact-card-container">
-        <span className="follow-up-label"> Show:
+        <span className="follow-up-label">Show:
         <img
           alt="mark as follow up"
           src="../images/black-flag.svg"
